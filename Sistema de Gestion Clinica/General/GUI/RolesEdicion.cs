@@ -25,7 +25,7 @@ namespace General.GUI
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if(RolesGestion.x == 2)
+            if(RolesGestion.x)
             {
                 try
                 {
@@ -46,11 +46,12 @@ namespace General.GUI
                 }
                 Close();
             }
-            if(RolesGestion.x == 3)
+            if(RolesGestion.x == false)
             {
                 try
                 {
-                    General.CLS.Roles roles = new General.CLS.Roles { Rol = txtRol.Text.ToString() };
+                    General.CLS.Roles roles = new General.CLS.Roles();
+                    roles.Rol = txtRol.Text.ToString();
                     Boolean f = roles.Insertar();
                     if (f == false)
                     {
@@ -72,12 +73,7 @@ namespace General.GUI
 
         private void RolesEdicion_Load(object sender, EventArgs e)
         {
-            if(RolesGestion.x == 2)
-            {
-                txtIdRol.Text = RolesGestion.idrol;
-                txtRol.Text = RolesGestion.rol;
-                txtIdRol.ReadOnly = true;
-            }
+            txtIdRol.ReadOnly = true;
         }
     }
 }

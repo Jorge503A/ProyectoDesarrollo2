@@ -117,7 +117,7 @@
         private System.Windows.Forms.Label lblRol;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.TextBox txtIdRol;
-        private System.Windows.Forms.TextBox txtRol;
+        public System.Windows.Forms.TextBox txtIdRol;
+        public System.Windows.Forms.TextBox txtRol;
     }
 }

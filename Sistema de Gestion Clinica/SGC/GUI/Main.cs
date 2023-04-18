@@ -38,5 +38,19 @@ namespace SGC.GUI
 
             }
         }
+
+        private void gestionDeEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                General.GUI.EmpleadosGestion f = new General.GUI.EmpleadosGestion();
+                f.MdiParent = this;
+                f.Show();
+            }
+            catch (Exception)
+            {
+
+            }
+        }
     }
 }

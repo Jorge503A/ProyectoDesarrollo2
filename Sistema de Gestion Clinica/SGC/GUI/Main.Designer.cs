@@ -30,12 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
+            this.generalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDeRolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.lblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblRol = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.generalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestionDeRolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDeEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +50,22 @@
             this.menuStrip.Size = new System.Drawing.Size(823, 24);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            // 
+            // generalToolStripMenuItem
+            // 
+            this.generalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestionDeRolesToolStripMenuItem,
+            this.gestionDeEmpleadosToolStripMenuItem});
+            this.generalToolStripMenuItem.Name = "generalToolStripMenuItem";
+            this.generalToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.generalToolStripMenuItem.Text = "General";
+            // 
+            // gestionDeRolesToolStripMenuItem
+            // 
+            this.gestionDeRolesToolStripMenuItem.Name = "gestionDeRolesToolStripMenuItem";
+            this.gestionDeRolesToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.gestionDeRolesToolStripMenuItem.Text = "Gestion de Roles";
+            this.gestionDeRolesToolStripMenuItem.Click += new System.EventHandler(this.gestionDeRolesToolStripMenuItem_Click);
             // 
             // statusStrip
             // 
@@ -73,20 +90,12 @@
             this.lblRol.Size = new System.Drawing.Size(24, 17);
             this.lblRol.Text = "Rol";
             // 
-            // generalToolStripMenuItem
+            // gestionDeEmpleadosToolStripMenuItem
             // 
-            this.generalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gestionDeRolesToolStripMenuItem});
-            this.generalToolStripMenuItem.Name = "generalToolStripMenuItem";
-            this.generalToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.generalToolStripMenuItem.Text = "General";
-            // 
-            // gestionDeRolesToolStripMenuItem
-            // 
-            this.gestionDeRolesToolStripMenuItem.Name = "gestionDeRolesToolStripMenuItem";
-            this.gestionDeRolesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gestionDeRolesToolStripMenuItem.Text = "Gestion de Roles";
-            this.gestionDeRolesToolStripMenuItem.Click += new System.EventHandler(this.gestionDeRolesToolStripMenuItem_Click);
+            this.gestionDeEmpleadosToolStripMenuItem.Name = "gestionDeEmpleadosToolStripMenuItem";
+            this.gestionDeEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.gestionDeEmpleadosToolStripMenuItem.Text = "Gestion de Empleados";
+            this.gestionDeEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.gestionDeEmpleadosToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -118,6 +127,7 @@
         private System.Windows.Forms.ToolStripStatusLabel lblUsuario;
         private System.Windows.Forms.ToolStripMenuItem generalToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDeRolesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionDeEmpleadosToolStripMenuItem;
     }
 }
 
