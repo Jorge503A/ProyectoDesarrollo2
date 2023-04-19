@@ -68,5 +68,24 @@ namespace DataManager
             return Resultado;
 
         }
+
+        public static DataTable DIRECCIONES()
+        {
+            DataTable Resultado = new DataTable();
+            String Sentencia = @"select a.idDireccion, a.NumeroCasa,a.PasajePoligono, a.Pais, b.municipio,c.departamento from direcciones a, municipios b, departamentos c where a.IdMunicipio = b.IdMunicipios and b.IdDepartamento=c.IdDepartamento;";
+            DBOperacion Consultor = new DBOperacion();
+            try
+            {
+                Resultado = Consultor.Consultar(Sentencia);
+            }
+            catch (Exception)
+            {
+                Resultado = new DataTable();
+            }
+
+            return Resultado;
+
+        }
+
     }
 }

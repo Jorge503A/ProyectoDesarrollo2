@@ -28,15 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.generalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDeRolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDeEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.lblUsuario = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblRol = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.gestionDeEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip = new System.Windows.Forms.ToolTip();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -67,6 +66,13 @@
             this.gestionDeRolesToolStripMenuItem.Text = "Gestion de Roles";
             this.gestionDeRolesToolStripMenuItem.Click += new System.EventHandler(this.gestionDeRolesToolStripMenuItem_Click);
             // 
+            // gestionDeEmpleadosToolStripMenuItem
+            // 
+            this.gestionDeEmpleadosToolStripMenuItem.Name = "gestionDeEmpleadosToolStripMenuItem";
+            this.gestionDeEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
+            this.gestionDeEmpleadosToolStripMenuItem.Text = "Gestion de Empleados";
+            this.gestionDeEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.gestionDeEmpleadosToolStripMenuItem_Click);
+            // 
             // statusStrip
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -80,22 +86,17 @@
             // 
             // lblUsuario
             // 
+            this.lblUsuario.Image = global::SGC.Properties.Resources.usuario;
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(47, 17);
+            this.lblUsuario.Size = new System.Drawing.Size(63, 17);
             this.lblUsuario.Text = "Usuario";
             // 
             // lblRol
             // 
+            this.lblRol.Image = global::SGC.Properties.Resources.rol;
             this.lblRol.Name = "lblRol";
-            this.lblRol.Size = new System.Drawing.Size(24, 17);
+            this.lblRol.Size = new System.Drawing.Size(40, 17);
             this.lblRol.Text = "Rol";
-            // 
-            // gestionDeEmpleadosToolStripMenuItem
-            // 
-            this.gestionDeEmpleadosToolStripMenuItem.Name = "gestionDeEmpleadosToolStripMenuItem";
-            this.gestionDeEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
-            this.gestionDeEmpleadosToolStripMenuItem.Text = "Gestion de Empleados";
-            this.gestionDeEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.gestionDeEmpleadosToolStripMenuItem_Click);
             // 
             // Main
             // 

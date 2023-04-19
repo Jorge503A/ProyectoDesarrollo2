@@ -42,6 +42,7 @@
             this.cmbGenero = new System.Windows.Forms.ComboBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnDireccion = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblIdEmpleado
@@ -102,35 +103,35 @@
             // 
             this.txtIdEmpleado.Location = new System.Drawing.Point(22, 55);
             this.txtIdEmpleado.Name = "txtIdEmpleado";
-            this.txtIdEmpleado.Size = new System.Drawing.Size(207, 20);
+            this.txtIdEmpleado.Size = new System.Drawing.Size(42, 20);
             this.txtIdEmpleado.TabIndex = 6;
             // 
             // txtNombreEmpleado
             // 
             this.txtNombreEmpleado.Location = new System.Drawing.Point(22, 90);
             this.txtNombreEmpleado.Name = "txtNombreEmpleado";
-            this.txtNombreEmpleado.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreEmpleado.Size = new System.Drawing.Size(238, 20);
             this.txtNombreEmpleado.TabIndex = 7;
             // 
             // txtApellidoEmpleado
             // 
             this.txtApellidoEmpleado.Location = new System.Drawing.Point(22, 129);
             this.txtApellidoEmpleado.Name = "txtApellidoEmpleado";
-            this.txtApellidoEmpleado.Size = new System.Drawing.Size(100, 20);
+            this.txtApellidoEmpleado.Size = new System.Drawing.Size(238, 20);
             this.txtApellidoEmpleado.TabIndex = 8;
             // 
             // txtTelefonoEmpleado
             // 
             this.txtTelefonoEmpleado.Location = new System.Drawing.Point(25, 177);
             this.txtTelefonoEmpleado.Name = "txtTelefonoEmpleado";
-            this.txtTelefonoEmpleado.Size = new System.Drawing.Size(100, 20);
+            this.txtTelefonoEmpleado.Size = new System.Drawing.Size(235, 20);
             this.txtTelefonoEmpleado.TabIndex = 9;
             // 
             // txtIdDireccion
             // 
             this.txtIdDireccion.Location = new System.Drawing.Point(22, 267);
             this.txtIdDireccion.Name = "txtIdDireccion";
-            this.txtIdDireccion.Size = new System.Drawing.Size(100, 20);
+            this.txtIdDireccion.Size = new System.Drawing.Size(42, 20);
             this.txtIdDireccion.TabIndex = 10;
             // 
             // cmbGenero
@@ -168,11 +169,22 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // btnDireccion
+            // 
+            this.btnDireccion.Location = new System.Drawing.Point(71, 267);
+            this.btnDireccion.Name = "btnDireccion";
+            this.btnDireccion.Size = new System.Drawing.Size(75, 23);
+            this.btnDireccion.TabIndex = 14;
+            this.btnDireccion.Text = "Dirección";
+            this.btnDireccion.UseVisualStyleBackColor = true;
+            this.btnDireccion.Click += new System.EventHandler(this.btnDireccion_Click);
+            // 
             // EmpleadosEdicion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 356);
+            this.Controls.Add(this.btnDireccion);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.cmbGenero);
@@ -188,6 +200,7 @@
             this.Controls.Add(this.lblNombreEmpleado);
             this.Controls.Add(this.lblIdEmpleado);
             this.Name = "EmpleadosEdicion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmpleadosEdicion";
             this.Load += new System.EventHandler(this.EmpleadosEdicion_Load);
             this.ResumeLayout(false);
@@ -207,9 +220,10 @@
         private System.Windows.Forms.TextBox txtNombreEmpleado;
         private System.Windows.Forms.TextBox txtApellidoEmpleado;
         private System.Windows.Forms.TextBox txtTelefonoEmpleado;
-        private System.Windows.Forms.TextBox txtIdDireccion;
         private System.Windows.Forms.ComboBox cmbGenero;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnDireccion;
+        public System.Windows.Forms.TextBox txtIdDireccion;
     }
 }

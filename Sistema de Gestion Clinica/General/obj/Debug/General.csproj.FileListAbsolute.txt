@@ -15,3 +15,4 @@ C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\General\obj\Debug\General.
 C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\General\obj\Debug\General.GUI.RolesEdicion.resources
 C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\General\obj\Debug\General.GUI.EmpleadosGestion.resources
 C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\General\obj\Debug\General.GUI.EmpleadosEdicion.resources
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\General\obj\Debug\General.GUI.DireccionesConsultar.resources

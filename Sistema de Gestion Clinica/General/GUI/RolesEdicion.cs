@@ -16,20 +16,28 @@ namespace General.GUI
         public RolesEdicion()
         {
             InitializeComponent();
+            var tt = new ToolTip();
+            tt.SetToolTip(pictureBoxGuardar, "Guardar");
+            var tt1 = new ToolTip();
+            tt1.SetToolTip(pictureBoxCancelar, "Cancelar");
         }
 
-        private void btnCancelar_Click(object sender, EventArgs e)
+        
+
+        
+
+        private void RolesEdicion_Load(object sender, EventArgs e)
         {
-            Close();
+            txtIdRol.ReadOnly = true;
         }
 
-        private void btnGuardar_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if(RolesGestion.x)
+            if (RolesGestion.x)
             {
                 try
                 {
-                    General.CLS.Roles roles = new General.CLS.Roles { IdRol=txtIdRol.Text.ToString(),Rol = txtRol.Text.ToString() };
+                    General.CLS.Roles roles = new General.CLS.Roles { IdRol = txtIdRol.Text.ToString(), Rol = txtRol.Text.ToString() };
                     Boolean f = roles.Actualizar();
                     if (f == false)
                     {
@@ -46,7 +54,7 @@ namespace General.GUI
                 }
                 Close();
             }
-            if(RolesGestion.x == false)
+            if (RolesGestion.x == false)
             {
                 try
                 {
@@ -68,12 +76,11 @@ namespace General.GUI
                 }
                 Close();
             }
-            
         }
 
-        private void RolesEdicion_Load(object sender, EventArgs e)
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            txtIdRol.ReadOnly = true;
+            Close();
         }
     }
 }

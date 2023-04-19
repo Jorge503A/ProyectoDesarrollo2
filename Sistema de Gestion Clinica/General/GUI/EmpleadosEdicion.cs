@@ -65,10 +65,11 @@ namespace General.GUI
 
         private void EmpleadosEdicion_Load(object sender, EventArgs e)
         {
+            txtIdEmpleado.ReadOnly = true;
+            txtIdDireccion.ReadOnly = true;
             if (EmpleadosGestion.x == true)
             {
                 txtIdEmpleado.Text = EmpleadosGestion.idempleado;
-                txtIdEmpleado.ReadOnly = true;
                 txtNombreEmpleado.Text = EmpleadosGestion.nombreempleado;
                 txtApellidoEmpleado.Text = EmpleadosGestion.apellidoempleado;
                 txtTelefonoEmpleado.Text = EmpleadosGestion.telefonoempleado;
@@ -80,6 +81,13 @@ namespace General.GUI
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnDireccion_Click(object sender, EventArgs e)
+        {
+            DireccionesConsultar f = new DireccionesConsultar();
+            f.ShowDialog();
+            txtIdDireccion.Text = DireccionesConsultar.ID;
         }
     }
 }
