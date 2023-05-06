@@ -1,0 +1,80 @@
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe.config
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.pdb
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csprojResolveAssemblyReference.cache
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Properties.Resources.resources
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.exe
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.pdb
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Form1.resources
+c:\users\aula2\onedrive\documentos\visual studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Main.resources
+C:\Users\aula2\OneDrive\Documentos\Visual Studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Splash.resources
+C:\Users\aula2\OneDrive\Documentos\Visual Studio 2013\Projects\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Login.resources
+G:\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe.config
+G:\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe
+G:\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.pdb
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.AssemblyReference.cache
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.SuggestedBindingRedirects.cache
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Form1.resources
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Login.resources
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Main.resources
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Splash.resources
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Properties.Resources.resources
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.GenerateResource.cache
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.CoreCompileInputs.cache
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.exe
+G:\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.pdb
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe.config
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.exe
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.pdb
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.pdb
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csprojResolveAssemblyReference.cache
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Form1.resources
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Login.resources
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Main.resources
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Splash.resources
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Properties.Resources.resources
+C:\Users\aula2\OneDrive\Escritorio\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.GenerateResource.Cache
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe.config
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.pdb
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\DataManager.dll
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\MySql.Data.dll
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\DataManager.pdb
+D:\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\MySql.Data.xml
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.AssemblyReference.cache
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Form1.resources
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Login.resources
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Main.resources
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Splash.resources
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Properties.Resources.resources
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.GenerateResource.cache
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.CoreCompileInputs.cache
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.CopyComplete
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.exe
+D:\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.pdb
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe.config
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.exe
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SGC.pdb
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\DataManager.dll
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\MySql.Data.dll
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\DataManager.pdb
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\MySql.Data.xml
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.SuggestedBindingRedirects.cache
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Form1.resources
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Login.resources
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Main.resources
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.GUI.Splash.resources
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.Properties.Resources.resources
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.GenerateResource.cache
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.csproj.CopyComplete
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.exe
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\obj\Debug\SGC.pdb
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SessionManager.dll
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\SessionManager.pdb
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\General.dll
+C:\Users\MINEDUCYT\Desktop\Sistema de Gestion Clinica\SGC\bin\Debug\General.pdb
